@@ -22,6 +22,7 @@
   <img src="https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" />
   <img src="https://img.shields.io/badge/GLSL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
 </p>
 
 <p align="center">
@@ -102,7 +103,7 @@
       </p>
       <p align="center">
         <strong>Graphics Test Automation Framework</strong><br/>
-        Config-driven test automation for graphics applications. Supports screenshot comparison, benchmark validation, and CI integration.
+        Config-driven test runner for graphics apps: benchmark regression, screenshot diff (PSNR/SSIM), shader compilation, memory leak detection, sanitizer parsing, and statistical trend analysis. 64 pytest unit tests.
       </p>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/GfxTestKit">
@@ -110,6 +111,27 @@
         </a>
       </p>
     </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🔬 ShaderTestKit</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/ShaderTestKit">
+          <img src="https://img.shields.io/badge/C%23-239120?style=flat-square" />
+          <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square" />
+          <img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>HLSL Shader Compiler Test Harness</strong><br/>
+        Validates HLSL compilation through dxc.exe: expected pass/fail, error pattern matching, multi-optimization-level testing, and DXIL instruction count regression detection. 12 xUnit tests.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/ShaderTestKit">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3 align="center">⛏️ RedCraft</h3>
       <p align="center">
@@ -126,6 +148,8 @@
           <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
         </a>
       </p>
+    </td>
+    <td width="50%" valign="top">
     </td>
   </tr>
 </table>
