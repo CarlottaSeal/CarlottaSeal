@@ -1,11 +1,154 @@
-This is Carlotta Seal's git.
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Hey+there+%F0%9F%91%8B+I'm+Ruotong;Graphics+Engine+Developer;Real-Time+Rendering+Enthusiast" alt="Typing SVG" />
+</h1>
 
-I go by **Carlotta/Ruotong/Selkie**. Now I'm a software development student in SMU Guildhall, Dallas Texas.
+<p align="center">
+  <a href="https://www.linkedin.com/in/ruotong-guan-0654372b8"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://carlottak16mars.wixsite.com/seal"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+</p>
 
-Currently I'm mainly working on implementing Vulkan into my Igloo Engine.
+<p align="center">
+  <em>SMU Guildhall | Building real-time rendering systems with C++, DX12, and HLSL</em>
+</p>
 
-Feel free to connect me on Linkedin!
-https://www.linkedin.com/in/ruotong-guan-0654372b8/
+---
 
-My portfolio:[You can find all details about each project here]
-https://carlottak16mars.wixsite.com/seal
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/DirectX_12-006600?style=for-the-badge&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/HLSL-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" />
+  <img src="https://img.shields.io/badge/GLSL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat-square&logo=visual-studio&logoColor=white" />
+  <img src="https://img.shields.io/badge/PIX-0078D4?style=flat-square&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/RenderDoc-3C4043?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Perforce-404040?style=flat-square&logo=perforce&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/ImGui-3C4043?style=flat-square&logoColor=white" />
+</p>
+
+### 🤖 AI-Powered Development
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-CC9B7A?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" />
+</p>
+
+<p align="center">
+  <em>Deeply familiar with modern AI-assisted development tools.</em>
+</p>
+
+---
+
+## 🎯 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🌟 LuminaGI</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/LuminaGI">
+          <img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" />
+          <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" />
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>Lumen-style Global Illumination System</strong><br/>
+        Real-time GI with surface cache, radiosity, screen-space probes, and voxel lighting. Built on a custom DX12 engine.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/LuminaGI">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🏔️ IglooEngine</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/IglooEngine">
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
+          <img src="https://img.shields.io/badge/Vulkan-AC162C?style=flat-square" />
+          <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>Custom Graphics / Game Engine</strong><br/>
+        Multi-API rendering engine with Vulkan and DX12 backends. The foundation powering LuminaGI and other projects.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/IglooEngine">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🧪 GfxTestKit</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/GfxTestKit">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" />
+          <img src="https://img.shields.io/badge/MIT-green?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>Graphics Test Automation Framework</strong><br/>
+        Config-driven test automation for graphics applications. Supports screenshot comparison, benchmark validation, and CI integration.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/GfxTestKit">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⛏️ RedCraft</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/RedCraft">
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>Minecraft-Style World Generation</strong><br/>
+        Procedural voxel world generation with terrain algorithms, chunk management, and real-time rendering.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/RedCraft">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=CarlottaSeal&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlottaSeal&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=CarlottaSeal&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=CarlottaSeal&theme=darkhub&no-frame=true&column=6&margin-w=10" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=CarlottaSeal&style=flat-square&color=58a6ff" />
+</p>
