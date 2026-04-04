@@ -32,6 +32,7 @@
   <img src="https://img.shields.io/badge/Perforce-404040?style=flat-square&logo=perforce&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/ImGui-3C4043?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rider-000000?style=flat-square&logo=rider&logoColor=white" />
 </p>
 
 ### 🤖 AI-Powered Development
@@ -45,6 +46,19 @@
 
 <p align="center">
   <em>Deeply familiar with modern AI-assisted development tools.</em>
+</p>
+
+### 🧪 Testing & QA
+
+<p align="center">
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
+  <img src="https://img.shields.io/badge/xUnit-239120?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/PSNR%2FSSIM_Diff-3C4043?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sanitizer_Analysis-E34F26?style=for-the-badge&logoColor=white" />
+</p>
+
+<p align="center">
+  <em>Graphics test automation: benchmark regression, screenshot diff, shader compilation validation, memory leak detection, and sanitizer log parsing.</em>
 </p>
 
 ---
