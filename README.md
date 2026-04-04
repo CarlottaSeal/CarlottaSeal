@@ -27,12 +27,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat-square&logo=visual-studio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rider-000000?style=flat-square&logo=rider&logoColor=white" />
   <img src="https://img.shields.io/badge/PIX-0078D4?style=flat-square&logo=microsoft&logoColor=white" />
   <img src="https://img.shields.io/badge/RenderDoc-3C4043?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Perforce-404040?style=flat-square&logo=perforce&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/ImGui-3C4043?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rider-000000?style=flat-square&logo=rider&logoColor=white" />
 </p>
 
 ### 🤖 AI-Powered Development
