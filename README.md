@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <em>SMU Guildhall | Building real-time rendering systems with C++, DX12, and HLSL</em>
+  <em>SMU Guildhall | Building real-time rendering systems with C++, DX12, and HLSL | Writing Tests for them</em>
 </p>
 
 ---
