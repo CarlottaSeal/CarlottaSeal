@@ -45,7 +45,7 @@
 </p>
 
 <p align="center">
-  <em>Deeply familiar with modern AI-assisted development tools.</em>
+  <em>Leverage AI tools to accelerate iteration — architecture and core logic remain hand-authored.</em>
 </p>
 
 ### 🧪 Testing & QA
@@ -164,6 +164,21 @@
       </p>
     </td>
     <td width="50%" valign="top">
+      <h3 align="center">🌲 SceneSandbox</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/SceneSandbox">
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>Spatial Acceleration Structure Visualizer</strong><br/>
+        Interactive visualization of BSP trees and BVH trees built over 2D scenes. Demonstrates the core data structures behind ray tracing and real-time collision queries.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/SceneSandbox">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
     </td>
   </tr>
 </table>
