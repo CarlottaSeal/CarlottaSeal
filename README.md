@@ -35,15 +35,6 @@
   <img src="https://img.shields.io/badge/ImGui-3C4043?style=flat-square&logoColor=white" />
 </p>
 
-### 🤖 AI-Powered Development
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-CC9B7A?style=for-the-badge&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" />
-</p>
-
 ### 🧪 Testing & QA
 
 <p align="center">
@@ -55,6 +46,15 @@
 
 <p align="center">
   <em>Graphics test automation: benchmark regression, screenshot diff, shader compilation validation, memory leak detection, and sanitizer log parsing.</em>
+</p>
+
+### 🤖 AI-Powered Development
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-CC9B7A?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" />
 </p>
 
 ---
