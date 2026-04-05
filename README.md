@@ -44,10 +44,6 @@
   <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" />
 </p>
 
-<p align="center">
-  <em>Leverage AI tools to accelerate iteration — architecture and core logic remain hand-authored.</em>
-</p>
-
 ### 🧪 Testing & QA
 
 <p align="center">
@@ -172,7 +168,7 @@
       </p>
       <p align="center">
         <strong>Spatial Acceleration Structure Visualizer</strong><br/>
-        Interactive visualization of BSP trees and BVH trees built over 2D scenes. Demonstrates the core data structures behind ray tracing and real-time collision queries.
+        Implements BSP and BVH tree construction over randomized 2D scenes with interactive traversal visualization. The same structures that power real-time ray tracing acceleration in DXR.
       </p>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/SceneSandbox">
