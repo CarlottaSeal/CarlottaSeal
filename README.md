@@ -3,6 +3,10 @@
 </h1>
 
 <p align="center">
+  <em>aka Carlotta</em>
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/ruotong-guan-0654372b8"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://carlottak16mars.wixsite.com/seal"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
 </p>
