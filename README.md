@@ -22,6 +22,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
   <img src="https://img.shields.io/badge/HLSL-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white" />
   <img src="https://img.shields.io/badge/GLSL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" />
@@ -126,20 +127,20 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🔬 ShaderTestKit</h3>
+      <h3 align="center">🎯 LuminaGI-CudaRef</h3>
       <p align="center">
-        <a href="https://github.com/CarlottaSeal/ShaderTestKit">
-          <img src="https://img.shields.io/badge/C%23-239120?style=flat-square" />
-          <img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square" />
-          <img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" />
+        <a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">
+          <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         </a>
       </p>
       <p align="center">
-        <strong>HLSL Shader Compiler Test Harness</strong><br/>
-        Validates HLSL compilation through dxc.exe: expected pass/fail, error pattern matching, multi-optimization-level testing, and DXIL instruction count regression detection. 12 xUnit tests.
+        <strong>CUDA Reference Path Tracer for GI Validation</strong><br/>
+        Brute-force path tracer used as ground truth for LuminaGI's real-time GI output. Morton-ordered LBVH, NEE direct + cosine-weighted indirect bounces with Russian roulette. 4 ms / 1 spp direct, 8 s / 256 spp full GI on RTX 4080 (1.1M tris). PSNR/SSIM + heatmap diff pipeline.
       </p>
       <p align="center">
-        <a href="https://github.com/CarlottaSeal/ShaderTestKit">
+        <a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">
           <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
         </a>
       </p>
