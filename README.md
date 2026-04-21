@@ -119,7 +119,7 @@
       </p>
       <p align="center">
         <strong>From-Scratch FlashAttention with Online Softmax</strong><br/>
-        Three CUDA kernels: FP32 baseline → Q-tiled flash → FP16 wmma Tensor Core matmul. <strong>2.64× faster than a naive baseline</strong> at N=4096, D=64 on RTX 4080. Nsight Compute profile-driven progression; correctness verified against double-precision CPU reference.
+        Four CUDA kernels: FP32 baseline → Q-tiled flash → FP16 wmma Tensor Core matmul → BR=64 multi-warp wmma with dynamic shmem opt-in. <strong>4.11× faster than a naive baseline</strong> at N=4096, D=64 on RTX 4080. Nsight Compute profile-driven progression; correctness verified against double-precision CPU reference.
       </p>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
