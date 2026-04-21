@@ -109,19 +109,20 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🧪 GfxTestKit</h3>
+      <h3 align="center">⚡ FlashAttention-lite</h3>
       <p align="center">
-        <a href="https://github.com/CarlottaSeal/GfxTestKit">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" />
-          <img src="https://img.shields.io/badge/MIT-green?style=flat-square" />
+        <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
+          <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+          <img src="https://img.shields.io/badge/Tensor_Cores-76B900?style=flat-square" />
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
         </a>
       </p>
       <p align="center">
-        <strong>Graphics Test Automation Framework</strong><br/>
-        Config-driven test runner for graphics apps: benchmark regression, screenshot diff (PSNR/SSIM), shader compilation, memory leak detection, sanitizer parsing, and statistical trend analysis. 64 pytest unit tests.
+        <strong>From-Scratch FlashAttention with Online Softmax</strong><br/>
+        Three CUDA kernels: FP32 baseline → Q-tiled flash → FP16 wmma Tensor Core matmul. <strong>2.64× faster than a naive baseline</strong> at N=4096, D=64 on RTX 4080. Nsight Compute profile-driven progression; correctness verified against double-precision CPU reference.
       </p>
       <p align="center">
-        <a href="https://github.com/CarlottaSeal/GfxTestKit">
+        <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
           <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
         </a>
       </p>
@@ -131,13 +132,13 @@
       <p align="center">
         <a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">
           <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
           <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         </a>
       </p>
       <p align="center">
-        <strong>CUDA Reference Path Tracer for GI Validation</strong><br/>
-        Brute-force path tracer used as ground truth for LuminaGI's real-time GI output. Morton-ordered LBVH, NEE direct + cosine-weighted indirect bounces with Russian roulette. 4 ms / 1 spp direct, 8 s / 256 spp full GI on RTX 4080 (1.1M tris). PSNR/SSIM + heatmap diff pipeline.
+        <strong>CUDA Path Tracer + Neural Denoiser for GI Validation</strong><br/>
+        Brute-force path tracer as ground truth for LuminaGI's real-time GI: Morton-ordered LBVH, NEE direct + indirect bounces with Russian roulette. Plus a PyTorch U-Net denoiser on 8-spp output — <strong>22× faster than 256-spp baseline at 80% of its PSNR gain</strong>. Nsight Compute profile-driven optimization (occupancy 50% → 67%).
       </p>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">
@@ -181,6 +182,27 @@
         </a>
       </p>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🧪 GfxTestKit</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/GfxTestKit">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" />
+          <img src="https://img.shields.io/badge/MIT-green?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>Graphics Test Automation Framework</strong><br/>
+        Config-driven test runner for graphics apps: benchmark regression, screenshot diff (PSNR/SSIM), shader compilation, memory leak detection, sanitizer parsing, and statistical trend analysis. 64 pytest unit tests.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/GfxTestKit">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">&nbsp;</td>
   </tr>
 </table>
 
