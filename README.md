@@ -109,25 +109,6 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🧱 Tessera</h3>
-      <p align="center">
-        <a href="https://github.com/CarlottaSeal/Tessera">
-          <img src="https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white" />
-          <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white" />
-          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
-        </a>
-      </p>
-      <p align="center">
-        <strong>Vulkan Tile-Deferred Renderer</strong><br/>
-        Single render pass with G-buffer fill + lighting subpasses via input attachments + <code>VK_DEPENDENCY_BY_REGION_BIT</code> — the bandwidth pattern Adreno / Mali reward. F2 toggles a forward A/B path with per-pass GPU timestamps. Built on the engine fixes that brought the Vulkan backend to DX12 parity (UBO/VBO ring buffers, bindless texture atlas, MaterialConstants push constant, render-pass-aware EndCamera).
-      </p>
-      <p align="center">
-        <a href="https://github.com/CarlottaSeal/Tessera">
-          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h3 align="center">🎯 LuminaGI-CudaRef</h3>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">
@@ -142,6 +123,25 @@
       </p>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🧱 Tessera</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/Tessera">
+          <img src="https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white" />
+          <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white" />
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>Vulkan Tile-Deferred Renderer</strong><br/>
+        Single render pass with G-buffer fill + lighting subpasses via input attachments + <code>VK_DEPENDENCY_BY_REGION_BIT</code> — the bandwidth pattern Adreno / Mali reward. F2 toggles a forward A/B path with per-pass GPU timestamps. Built on the engine fixes that brought the Vulkan backend to DX12 parity (UBO/VBO ring buffers, bindless texture atlas, MaterialConstants push constant, render-pass-aware EndCamera).
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/Tessera">
           <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
         </a>
       </p>
