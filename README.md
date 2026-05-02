@@ -119,7 +119,7 @@
       </p>
       <p align="center">
         <strong>CUDA Path Tracer + Neural Denoiser for GI Validation</strong><br/>
-        Brute-force path tracer as ground truth for LuminaGI's real-time GI: Morton-ordered LBVH, NEE direct + indirect bounces with Russian roulette. Plus a PyTorch U-Net denoiser on 8-spp output — <strong>22× faster than 256-spp baseline at 80% of its PSNR gain</strong>. Nsight Compute profile-driven optimization (occupancy 50% → 67%).
+        Brute-force path tracer (LBVH + NEE + Russian roulette) as ground truth for LuminaGI's real-time GI. PyTorch U-Net denoiser on 8-spp output — <strong>22× faster than 256-spp at 80% of its PSNR gain</strong>.
       </p>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">
@@ -138,7 +138,7 @@
       </p>
       <p align="center">
         <strong>Vulkan Tile-Deferred Renderer</strong><br/>
-        Single render pass with G-buffer fill + lighting subpasses via input attachments + <code>VK_DEPENDENCY_BY_REGION_BIT</code> — the bandwidth pattern Adreno / Mali reward. F2 toggles a forward A/B path with per-pass GPU timestamps. Built on the engine fixes that brought the Vulkan backend to DX12 parity (UBO/VBO ring buffers, bindless texture atlas, MaterialConstants push constant, render-pass-aware EndCamera).
+        G-buffer + lighting in one render pass via subpass input attachments + <code>VK_DEPENDENCY_BY_REGION_BIT</code> — the bandwidth pattern Adreno / Mali reward. F2 toggles a forward A/B path with per-pass GPU timestamps.
       </p>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/Tessera">
