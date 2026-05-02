@@ -109,20 +109,20 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">⚡ FlashAttention-lite</h3>
+      <h3 align="center">🧱 Tessera</h3>
       <p align="center">
-        <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
-          <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-          <img src="https://img.shields.io/badge/Tensor_Cores-76B900?style=flat-square" />
+        <a href="https://github.com/CarlottaSeal/Tessera">
+          <img src="https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white" />
+          <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white" />
           <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
         </a>
       </p>
       <p align="center">
-        <strong>From-Scratch FlashAttention with Online Softmax</strong><br/>
-        Four CUDA kernels: FP32 baseline → Q-tiled flash → FP16 wmma Tensor Core matmul → BR=64 multi-warp wmma with dynamic shmem opt-in. <strong>4.11× faster than a naive baseline</strong> at N=4096, D=64 on RTX 4080. Nsight Compute profile-driven progression; correctness verified against double-precision CPU reference.
+        <strong>Vulkan Tile-Deferred Renderer</strong><br/>
+        Single render pass with G-buffer fill + lighting subpasses via input attachments + <code>VK_DEPENDENCY_BY_REGION_BIT</code> — the bandwidth pattern Adreno / Mali reward. F2 toggles a forward A/B path with per-pass GPU timestamps. Built on the engine fixes that brought the Vulkan backend to DX12 parity (UBO/VBO ring buffers, bindless texture atlas, MaterialConstants push constant, render-pass-aware EndCamera).
       </p>
       <p align="center">
-        <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
+        <a href="https://github.com/CarlottaSeal/Tessera">
           <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
         </a>
       </p>
