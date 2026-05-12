@@ -166,25 +166,6 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🌲 SceneSandbox</h3>
-      <p align="center">
-        <a href="https://github.com/CarlottaSeal/SceneSandbox">
-          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
-        </a>
-      </p>
-      <p align="center">
-        <strong>Spatial Acceleration Structure Visualizer</strong><br/>
-        Implements BSP and BVH tree construction over randomized 2D scenes with interactive traversal visualization. The same structures that power real-time ray tracing acceleration in DXR.
-      </p>
-      <p align="center">
-        <a href="https://github.com/CarlottaSeal/SceneSandbox">
-          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3 align="center">🧪 GfxTestKit</h3>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/GfxTestKit">
@@ -202,7 +183,6 @@
         </a>
       </p>
     </td>
-    <td width="50%" valign="top">&nbsp;</td>
   </tr>
 </table>
 
