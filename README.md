@@ -149,6 +149,25 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h3 align="center">🌅 VulkanRTTest</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/VulkanRTTest">
+          <img src="https://img.shields.io/badge/Vulkan_KHR_RT-AC162C?style=flat-square&logo=vulkan&logoColor=white" />
+          <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white" />
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>Real-Time Ray-Traced Direct Lighting (ReSTIR DI)</strong><br/>
+        Vulkan KHR ray tracing on Crytek Sponza. Implements Bitterli 2020 Algorithms 1+2+3 with visibility-aware <code>pHat</code> via inline ray queries, plus an SVGF denoiser. Sibling demo to Tessera on the same engine.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/VulkanRTTest">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h3 align="center">⛏️ RedCraft</h3>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/RedCraft">
@@ -165,6 +184,8 @@
         </a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3 align="center">🧪 GfxTestKit</h3>
       <p align="center">
