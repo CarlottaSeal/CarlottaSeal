@@ -168,6 +168,27 @@
       </p>
     </td>
     <td width="50%" valign="top">
+      <h3 align="center">⚡ FlashAttention-lite</h3>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
+          <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+          <img src="https://img.shields.io/badge/Tensor_Cores-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
+        </a>
+      </p>
+      <p align="center">
+        <strong>CUDA FlashAttention Forward Kernel</strong><br/>
+        Forward-pass attention with online softmax, accelerated by <code>wmma</code> Tensor Core matrix multiply. Built up through a Nsight-guided optimization progression.
+      </p>
+      <p align="center">
+        <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
+          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3 align="center">⛏️ RedCraft</h3>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/RedCraft">
@@ -184,8 +205,6 @@
         </a>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3 align="center">🧪 GfxTestKit</h3>
       <p align="center">
