@@ -229,12 +229,6 @@
 ---
 
 <p align="center">
-  <em>无论怎么做，都有很多批评的声音。<br/>
-  与其一无所长遭人批评，不如放手创造而招致批评。</em>
-</p>
-
-<p align="center">
-  <sub><em>No matter what you do, criticism will come.<br/>
-  Better to create boldly and be criticized for it than to achieve nothing and be criticized all the same.</em></sub>
+  <img src="assets/quote.jpg" width="460" alt="无论怎么做，都有很多批评的声音；与其一无所长遭人批评，不如放手创造而招致批评" />
 </p>
 
