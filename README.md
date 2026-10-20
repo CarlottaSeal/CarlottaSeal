@@ -128,27 +128,6 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🧱 Tessera</h3>
-      <p align="center">
-        <a href="https://github.com/CarlottaSeal/Tessera">
-          <img src="https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white" />
-          <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white" />
-          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
-        </a>
-      </p>
-      <p align="center">
-        <strong>Vulkan Tile-Deferred Renderer</strong><br/>
-        G-buffer + lighting in one render pass via subpass input attachments + <code>VK_DEPENDENCY_BY_REGION_BIT</code> — the bandwidth pattern Adreno / Mali reward. F2 toggles a forward A/B path with per-pass GPU timestamps.
-      </p>
-      <p align="center">
-        <a href="https://github.com/CarlottaSeal/Tessera">
-          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3 align="center">🌅 VulkanRTTest</h3>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/VulkanRTTest">
@@ -159,29 +138,10 @@
       </p>
       <p align="center">
         <strong>Real-Time Ray-Traced Direct Lighting (ReSTIR DI)</strong><br/>
-        Vulkan KHR ray tracing on Crytek Sponza. Implements Bitterli 2020 Algorithms 1+2+3 with visibility-aware <code>pHat</code> via inline ray queries, plus an SVGF denoiser. Sibling demo to Tessera on the same engine.
+        Vulkan KHR ray tracing on Crytek Sponza. Implements Bitterli 2020 Algorithms 1+2+3 with visibility-aware <code>pHat</code> via inline ray queries, plus an SVGF denoiser.
       </p>
       <p align="center">
         <a href="https://github.com/CarlottaSeal/VulkanRTTest">
-          <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">⚡ FlashAttention-lite</h3>
-      <p align="center">
-        <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
-          <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-          <img src="https://img.shields.io/badge/Tensor_Cores-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" />
-        </a>
-      </p>
-      <p align="center">
-        <strong>CUDA FlashAttention Forward Kernel</strong><br/>
-        Forward-pass attention with online softmax, accelerated by <code>wmma</code> Tensor Core matrix multiply. Built up through a Nsight-guided optimization progression.
-      </p>
-      <p align="center">
-        <a href="https://github.com/CarlottaSeal/FlashAttention-lite">
           <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
         </a>
       </p>
