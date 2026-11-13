@@ -2,31 +2,67 @@
 
 ### 🎨 Real-Time Rendering
 
-| Project | Description | Stack |
-|:--|:--|:--|
-| **[LuminaGI](https://github.com/CarlottaSeal/LuminaGI)** | Lumen-style real-time global illumination: surface cache, radiosity, screen-space radiance probes and voxel lighting. SMU Guildhall thesis. | <img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" /> <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> |
-| **[IglooEngine](https://github.com/CarlottaSeal/IglooEngine)** | Custom DX12 rendering engine with a 12-step render pipeline, compute pipeline and job system. The foundation LuminaGI runs on. | <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" /> <img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" /> |
-| **[VulkanRTTest](https://github.com/CarlottaSeal/VulkanRTTest)**<br/><img src="https://img.shields.io/badge/WIP-F0A030?style=flat-square" /> | Vulkan KHR ray tracing on Crytek Sponza. ReSTIR DI (Bitterli 2020) with visibility-aware <code>pHat</code> via inline ray queries, plus an SVGF denoiser. | <img src="https://img.shields.io/badge/Vulkan_KHR_RT-AC162C?style=flat-square&logo=vulkan&logoColor=white" /> <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> |
-| **[RedCraft](https://github.com/CarlottaSeal/RedCraft)** | Minecraft-style procedural voxel world generation with terrain algorithms, chunk management and real-time rendering. | <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> |
+<table>
+  <tr><th width="160" align="left">Project</th><th width="420" align="left">Description</th><th width="180" align="left">Stack</th></tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/LuminaGI">LuminaGI</a></b></td>
+    <td width="420">Lumen-style real-time global illumination: surface cache, radiosity, screen-space radiance probes and voxel lighting. SMU Guildhall thesis.</td>
+    <td width="180"><img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" /> <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/IglooEngine">IglooEngine</a></b></td>
+    <td width="420">Custom DX12 rendering engine with a 12-step render pipeline, compute pipeline and job system. The foundation LuminaGI runs on.</td>
+    <td width="180"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" /> <img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/VulkanRTTest">VulkanRTTest</a></b><br/><img src="https://img.shields.io/badge/WIP-F0A030?style=flat-square" /></td>
+    <td width="420">Vulkan KHR ray tracing on Crytek Sponza. ReSTIR DI (Bitterli 2020) with visibility-aware <code>pHat</code> via inline ray queries, plus an SVGF denoiser.</td>
+    <td width="180"><img src="https://img.shields.io/badge/Vulkan_KHR_RT-AC162C?style=flat-square&logo=vulkan&logoColor=white" /> <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/RedCraft">RedCraft</a></b></td>
+    <td width="420">Minecraft-style procedural voxel world generation with terrain algorithms, chunk management and real-time rendering.</td>
+    <td width="180"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
+  </tr>
+</table>
 
 ### ⚡ GPU Compute & ML Kernels
 
-| Project | Description | Stack |
-|:--|:--|:--|
-| **[FlashAttention-lite](https://github.com/CarlottaSeal/FlashAttention-lite)** | CUDA FlashAttention forward in four profiling-driven versions, v1 to v4 with wmma Tensor Cores, plus a Triton port. Validated on Ada and Blackwell. | <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" /> <img src="https://img.shields.io/badge/Triton-0A0A0A?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> |
-| **[LuminaGI-CudaRef](https://github.com/CarlottaSeal/LuminaGI-CudaRef)** | CUDA path tracer (LBVH, NEE, Russian roulette) as ground truth for LuminaGI. PyTorch U-Net denoiser on 8-spp output, <strong>22× faster than 256-spp at 80% of its PSNR gain</strong>. | <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> |
+<table>
+  <tr><th width="160" align="left">Project</th><th width="420" align="left">Description</th><th width="180" align="left">Stack</th></tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/FlashAttention-lite">FlashAttention-lite</a></b></td>
+    <td width="420">CUDA FlashAttention forward in four profiling-driven versions, v1 to v4 with wmma Tensor Cores, plus a Triton port. Validated on Ada and Blackwell.</td>
+    <td width="180"><img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" /> <img src="https://img.shields.io/badge/Triton-0A0A0A?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">LuminaGI-CudaRef</a></b></td>
+    <td width="420">CUDA path tracer (LBVH, NEE, Russian roulette) as ground truth for LuminaGI. PyTorch U-Net denoiser on 8-spp output, <b>22× faster than 256-spp at 80% of its PSNR gain</b>.</td>
+    <td width="180"><img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
+  </tr>
+</table>
 
 ### 🧪 Graphics Testing
 
-| Project | Description | Stack |
-|:--|:--|:--|
-| **[GfxTestKit](https://github.com/CarlottaSeal/GfxTestKit)** | Config-driven test runner for graphics apps: screenshot diff (PSNR/SSIM), shader compilation tests, memory leak detection, benchmark regression and sanitizer parsing. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" /> <img src="https://img.shields.io/badge/MIT-green?style=flat-square" /> |
+<table>
+  <tr><th width="160" align="left">Project</th><th width="420" align="left">Description</th><th width="180" align="left">Stack</th></tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/GfxTestKit">GfxTestKit</a></b></td>
+    <td width="420">Config-driven test runner for graphics apps: screenshot diff (PSNR/SSIM), shader compilation tests, memory leak detection, benchmark regression and sanitizer parsing.</td>
+    <td width="180"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" /> <img src="https://img.shields.io/badge/MIT-green?style=flat-square" /></td>
+  </tr>
+</table>
 
 ### 🤖 Robotics Simulation
 
-| Project | Description | Stack |
-|:--|:--|:--|
-| **[visual-dr-manipulation](https://github.com/CarlottaSeal/visual-dr-manipulation)**<br/><img src="https://img.shields.io/badge/In_Progress-F0A030?style=flat-square" /> | Which visual randomization actually transfers? Ablation of five DR axes (lighting, material, camera, post-processing, scene geometry) for a vision-based Franka Lift policy, distilled from a state PPO teacher. Each axis maps to a real render-pipeline stage. | <img src="https://img.shields.io/badge/Isaac_Lab-76B900?style=flat-square" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" /> |
+<table>
+  <tr><th width="160" align="left">Project</th><th width="420" align="left">Description</th><th width="180" align="left">Stack</th></tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/visual-dr-manipulation">visual-dr-manipulation</a></b><br/><img src="https://img.shields.io/badge/In_Progress-F0A030?style=flat-square" /></td>
+    <td width="420">Which visual randomization actually transfers? Ablation of five DR axes (lighting, material, camera, post-processing, scene geometry) for a vision-based Franka Lift policy, distilled from a state PPO teacher. Each axis maps to a real render-pipeline stage.</td>
+    <td width="180"><img src="https://img.shields.io/badge/Isaac_Lab-76B900?style=flat-square" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" /></td>
+  </tr>
+</table>
 
 ### 🗺️ Planned
 
