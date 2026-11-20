@@ -1,5 +1,31 @@
 ## 🎯 Projects
 
+### 🎨 Real-Time Rendering
+
+<table>
+  <tr><th width="160" align="left">Project</th><th width="420" align="left">Description</th><th width="180" align="left">Stack</th></tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/LuminaGI">LuminaGI</a></b></td>
+    <td width="420">Lumen-style real-time global illumination: surface cache, radiosity, screen-space radiance probes and voxel lighting. SMU Guildhall thesis.</td>
+    <td width="180"><img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" /> <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/IglooEngine">IglooEngine</a></b></td>
+    <td width="420">Custom DX12 rendering engine with a 12-step render pipeline, compute pipeline and job system. The foundation LuminaGI runs on.</td>
+    <td width="180"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" /> <img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/VulkanRTTest">VulkanRTTest</a></b></td>
+    <td width="420">Vulkan KHR ray tracing on Crytek Sponza. ReSTIR DI (Bitterli 2020) with visibility-aware <code>pHat</code> via inline ray queries, plus an SVGF denoiser.</td>
+    <td width="180"><img src="https://img.shields.io/badge/Vulkan_KHR_RT-AC162C?style=flat-square&logo=vulkan&logoColor=white" /> <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/RedCraft">RedCraft</a></b></td>
+    <td width="420">Minecraft-style procedural voxel world generation with terrain algorithms, chunk management and real-time rendering.</td>
+    <td width="180"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
+  </tr>
+</table>
+
 ### ⚡ GPU Compute & AI Kernels
 
 <table>
@@ -28,32 +54,6 @@
     <td width="160"><b><a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">LuminaGI-CudaRef</a></b></td>
     <td width="420">CUDA path tracer (LBVH, NEE, Russian roulette) as ground truth for LuminaGI. PyTorch U-Net denoiser on 8-spp output, <b>22× faster than 256-spp at 80% of its PSNR gain</b>.</td>
     <td width="180"><img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
-  </tr>
-</table>
-
-### 🎨 Real-Time Rendering
-
-<table>
-  <tr><th width="160" align="left">Project</th><th width="420" align="left">Description</th><th width="180" align="left">Stack</th></tr>
-  <tr>
-    <td width="160"><b><a href="https://github.com/CarlottaSeal/LuminaGI">LuminaGI</a></b></td>
-    <td width="420">Lumen-style real-time global illumination: surface cache, radiosity, screen-space radiance probes and voxel lighting. SMU Guildhall thesis.</td>
-    <td width="180"><img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" /> <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
-  </tr>
-  <tr>
-    <td width="160"><b><a href="https://github.com/CarlottaSeal/IglooEngine">IglooEngine</a></b></td>
-    <td width="420">Custom DX12 rendering engine with a 12-step render pipeline, compute pipeline and job system. The foundation LuminaGI runs on.</td>
-    <td width="180"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /> <img src="https://img.shields.io/badge/DX12-006600?style=flat-square" /> <img src="https://img.shields.io/badge/HLSL-5C2D91?style=flat-square" /></td>
-  </tr>
-  <tr>
-    <td width="160"><b><a href="https://github.com/CarlottaSeal/VulkanRTTest">VulkanRTTest</a></b></td>
-    <td width="420">Vulkan KHR ray tracing on Crytek Sponza. ReSTIR DI (Bitterli 2020) with visibility-aware <code>pHat</code> via inline ray queries, plus an SVGF denoiser.</td>
-    <td width="180"><img src="https://img.shields.io/badge/Vulkan_KHR_RT-AC162C?style=flat-square&logo=vulkan&logoColor=white" /> <img src="https://img.shields.io/badge/GLSL-5586A4?style=flat-square" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
-  </tr>
-  <tr>
-    <td width="160"><b><a href="https://github.com/CarlottaSeal/RedCraft">RedCraft</a></b></td>
-    <td width="420">Minecraft-style procedural voxel world generation with terrain algorithms, chunk management and real-time rendering.</td>
-    <td width="180"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
   </tr>
 </table>
 
