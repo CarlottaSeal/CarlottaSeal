@@ -26,6 +26,17 @@
   </tr>
 </table>
 
+### 🤖 Robotics Simulation
+
+<table>
+  <tr><th width="160" align="left">Project</th><th width="420" align="left">Description</th><th width="180" align="left">Stack</th></tr>
+  <tr>
+    <td width="160"><b><a href="https://github.com/CarlottaSeal/visual-dr-manipulation">visual-dr-manipulation</a></b><br/><img src="https://img.shields.io/badge/In_Progress-F0A030?style=flat-square" /></td>
+    <td width="420">Which visual randomization actually transfers? Ablation of five DR axes (lighting, material, camera, post-processing, scene geometry) for a vision-based Franka Lift policy, distilled from a state PPO teacher. Each axis maps to a real render-pipeline stage.</td>
+    <td width="180"><img src="https://img.shields.io/badge/Isaac_Lab-76B900?style=flat-square" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" /></td>
+  </tr>
+</table>
+
 ### ⚡ GPU Compute & AI Kernels
 
 <table>
@@ -54,17 +65,6 @@
     <td width="160"><b><a href="https://github.com/CarlottaSeal/LuminaGI-CudaRef">LuminaGI-CudaRef</a></b></td>
     <td width="420">CUDA path tracer (LBVH, NEE, Russian roulette) as ground truth for LuminaGI. PyTorch U-Net denoiser on 8-spp output, <b>22× faster than 256-spp at 80% of its PSNR gain</b>.</td>
     <td width="180"><img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square" /></td>
-  </tr>
-</table>
-
-### 🤖 Robotics Simulation
-
-<table>
-  <tr><th width="160" align="left">Project</th><th width="420" align="left">Description</th><th width="180" align="left">Stack</th></tr>
-  <tr>
-    <td width="160"><b><a href="https://github.com/CarlottaSeal/visual-dr-manipulation">visual-dr-manipulation</a></b><br/><img src="https://img.shields.io/badge/In_Progress-F0A030?style=flat-square" /></td>
-    <td width="420">Which visual randomization actually transfers? Ablation of five DR axes (lighting, material, camera, post-processing, scene geometry) for a vision-based Franka Lift policy, distilled from a state PPO teacher. Each axis maps to a real render-pipeline stage.</td>
-    <td width="180"><img src="https://img.shields.io/badge/Isaac_Lab-76B900?style=flat-square" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" /></td>
   </tr>
 </table>
 
